@@ -1,0 +1,17 @@
+services:
+  mariadb:
+    image: mariadb:latest
+    container_name: mariadb_container
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword  # Root password
+      MYSQL_DATABASE: mydatabase  # Database name
+      MYSQL_USER: quarkus_user  # User for Quarkus
+      MYSQL_PASSWORD: quarkus_password  # Password for the user
+    ports:
+      - "3306:3306"  # Expose MariaDB on localhost:3306
+    volumes:
+      - mariadb_data:/var/lib/mysql
+
+volumes:
+  mariadb_data:

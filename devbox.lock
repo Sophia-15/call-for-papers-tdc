@@ -1,0 +1,127 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "resolved": "github:NixOS/nixpkgs/94c4dbe77c0740ebba36c173672ca15a7926c993?lastModified=1742578646&narHash=sha256-GiQ40ndXRnmmbDZvuv762vS%2Bgew1uDpFwOfgJ8tLiEs%3D"
+    },
+    "maven@latest": {
+      "last_modified": "2025-03-11T17:52:14Z",
+      "resolved": "github:NixOS/nixpkgs/0d534853a55b5d02a4ababa1d71921ce8f0aee4c#maven",
+      "source": "devbox-search",
+      "version": "3.9.9",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/v73qgp24ds2v8j405jpf2v55hy6m8hp8-maven-3.9.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/v73qgp24ds2v8j405jpf2v55hy6m8hp8-maven-3.9.9"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/hsas82zj194sl8vs716k0jclpzdyppzd-maven-3.9.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/hsas82zj194sl8vs716k0jclpzdyppzd-maven-3.9.9"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/a6xann4h1w1lv36vr4lvvkwwzz2n3hkq-maven-3.9.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/a6xann4h1w1lv36vr4lvvkwwzz2n3hkq-maven-3.9.9"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/aj031scg0r8jxklz2j2ihyys31ydzcd2-maven-3.9.9",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/aj031scg0r8jxklz2j2ihyys31ydzcd2-maven-3.9.9"
+        }
+      }
+    },
+    "nodejs@22.14.0": {
+      "last_modified": "2025-03-11T17:52:14Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/0d534853a55b5d02a4ababa1d71921ce8f0aee4c#nodejs_22",
+      "source": "devbox-search",
+      "version": "22.14.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/91y8h7rysgi5cl8hsj2bmjd00dq2l9pk-nodejs-22.14.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/slffbl0q14qc93dslaynyzh005rd869s-nodejs-22.14.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/91y8h7rysgi5cl8hsj2bmjd00dq2l9pk-nodejs-22.14.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ji8zs96759g59b4q6kz94pbfq6gvlazx-nodejs-22.14.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/zb1ly8w6vdw2pjxwkbm3vymyfxyy7af8-nodejs-22.14.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/ji8zs96759g59b4q6kz94pbfq6gvlazx-nodejs-22.14.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/067kj1aav6z9jhqbkyapjwjjrgl38ihs-nodejs-22.14.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/24z3qqnvs154idkbbbpjd55m11clidad-nodejs-22.14.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/067kj1aav6z9jhqbkyapjwjjrgl38ihs-nodejs-22.14.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/87hsv7pc321h80j7223209nxc8vmabqb-nodejs-22.14.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/hs3x57x6gw75sgwa081d3ir63rz7phmb-nodejs-22.14.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/87hsv7pc321h80j7223209nxc8vmabqb-nodejs-22.14.0"
+        }
+      }
+    },
+    "openjdk@17": {
+      "last_modified": "2022-11-21T15:52:25Z",
+      "resolved": "github:NixOS/nixpkgs/6b5019a48f876f3288efc626fa8b70ad0c64eb46#openjdk",
+      "source": "devbox-search",
+      "version": "17.0.3"
+    }
+  }
+}
